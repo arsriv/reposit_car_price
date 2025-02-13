@@ -1,0 +1,31 @@
+body {
+    background-color: #343a40;
+    color: white;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: #454d55;
+    border: 1px solid #343a40;
+}
+
+.card-header {
+    background-color: #343a40;
+    border-bottom: 1px solid #454d55;
+}
+
+.form-control {
+    background-color: #343a40;
+    color: white;
+    border: 1px solid #454d55;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
