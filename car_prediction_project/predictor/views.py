@@ -51,3 +51,7 @@ def predict(request):
 
         # Return prediction as JSON response
         return JsonResponse({'prediction': prediction})
+        CORS_ALLOW_ALL_ORIGINS = True  # Allow all frontend requests
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+CORS_ALLOW_HEADERS = ["*"]
